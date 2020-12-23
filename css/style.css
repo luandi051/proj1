@@ -10,6 +10,16 @@ h3{font-size: 0.937rem;display:inline-block;}
 #top_popup .close:after{content:'';display:block;width:2px; height:40px;background-color:#fff;
     transform:rotate(-45deg);position:absolute;top:0px;}
 
+
+#quickmenu{width: 50px; z-index: 1;
+                position: fixed;
+                top:500px; right: 10px;}
+
+
+#quickmenu li {padding-bottom:10px;}
+#quickmenu p{background-color: #F3AB25;color:#fff;border-radius: 5px;padding:5px;}
+
+
 /*********************section****************************/
 #sec2 .inner{position: relative;color:#fff ;}
 
@@ -106,3 +116,10 @@ h3{font-size: 0.937rem;display:inline-block;}
 #sec7 .sec7_h1{font-size: 1.2rem;}
 
 
+#footer .box{background-color:#B29D9D ;width: 100%;height: 40px;}
+#footer .mmm {float: left;margin-top: 10px;margin-left: 10px;}
+#footer .mmm a{margin-right: 10px;color: #333333;}
+#footer .icon {float: right;margin-right: 30px;margin-top: 7px;}
+#footer .foot1{margin-top:20px;margin-bottom:20px;}
+
+#footer .last p{padding-bottom: 10px}

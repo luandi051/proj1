@@ -30,7 +30,7 @@ button{outline:0}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
  #header .top_icon{float:right;
       width:215px;height:75px;position: relative;}
- #header .top_icon a{display: inline-block; padding-top: 20px;margin-left: 10px;}
+ #header .top_icon a{display: inline-block; padding-top: 22px;margin-left: 5px;}
   #logo {width: 175px;height: 77px;}    
   #logo img{width: 100%;}
 
@@ -38,9 +38,9 @@ button{outline:0}
   #header .inner{position: relative;}  
   #nav4 .depth1 {float:left;}
 
-  #nav4 .depth1 > li {float:left;padding:0 20px}
+  #nav4 .depth1 > li {float:left;padding:0 10px}
   #nav4 .depth1 > li > a {display: block;
-          text-align: center;font-size:0.7rem;color:#333;
+          text-align: center;color:#333;
           font-weight: bold;line-height:75px;}
   #nav4 .depth1 > li > a:after {content: '';height:3px; background-color:#0981CD;
                          position: relative;width:0;display: block;

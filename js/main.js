@@ -21,8 +21,13 @@ $(function(){
 
      $(window).scroll(function(){
       if($(document).scrollTop() >= 500 && $(document).scrollTop() <= $('#footer') .offset().top - 1000) { $( '#quickmenu').fadeIn(200);
-    }else{$('#quickmenu').fadeOut(200);}
-    
-})
+    }else{$('#quickmenu').fadeOut(200);}  
+    })
 
+    $('.bbb').click(function(){     
+      $('#nav_pop').fadeIn();
+    })
+    $('#nav_pop .nav_close').click(function(){
+    $('#nav_pop').fadeOut();
+     })
 })

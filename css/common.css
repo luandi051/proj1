@@ -28,6 +28,39 @@ button{outline:0}
 /****************메인화면, 서브화면 공통영역 ************************************/
  #wrap{width: 100%;min-width: 1024px; overflow: hidden;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
+
+#nav_pop{position: fixed; width: 100%; min-width: 1024px;height: 100%;overflow: auto;
+         background-color:/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0981cd+0,0981cd+16,f2ba52+68,f3ab25+100 */
+       #0981cd; /* Old browsers */
+         background: -moz-linear-gradient(-45deg,  #0981cd 0%, #0981cd 16%, #f2ba52 68%, #f3ab25 100%); /* FF3.6-15 */
+         background: -webkit-linear-gradient(-45deg,  #0981cd 0%,#0981cd 16%,#f2ba52 68%,#f3ab25 100%); /* Chrome10-25,Safari5.1-6 */
+         background: linear-gradient(135deg,  #0981cd 0%,#0981cd 16%,#f2ba52 68%,#f3ab25 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0981cd', endColorstr='#f3ab25',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+         ;z-index: 99999999;display: none}
+
+#nav_pop .navpop_inner{width: 1024px;margin:0 auto;}
+#nav_pop #nav_logo{position: relative;}
+#nav_pop #nav_logo .nav_close{position: absolute;top:0;right: 0;}
+#nav_pop .depth1 > li {width: 25%; float: left; 
+                       color:#fff;margin-top:100px; border-right: 1px solid #ccc;
+                       box-sizing: border-box;padding-left:30px ;}
+ #nav_pop .depth1 > li:last-child, #nav_pop .depth1 > li:nth-child(4n){border-right:none}                     
+#nav_pop .depth1 > li > a{font-size: 2rem;margin-bottom: 70px; display: block;font-weight: bold;}
+#nav_pop .depth2 > li {padding: 7px;}
+#nav_pop .depth2 > li > a{font-size: 1.2rem;}
+
+
+
+
+
+#nav_pop .nav_close{position: absolute;right:200px;top:10px;text-indent: -9999999px;
+                   background:none;border:0;width: 200px; height: 50px;}
+#nav_pop .nav_close:before{content:'';display:block;width:2px; height:40px;background-color:#fff;
+         transform:rotate(45deg);position:absolute;top:0px;}
+#nav_pop .nav_close:after{content:'';display:block;width:2px; height:40px;background-color:#fff;
+        transform:rotate(-45deg);position:absolute;top:0px;}
+
+
  #header .top_icon{float:right;
       width:215px;height:75px;position: relative;}
  #header .top_icon a{display: inline-block; padding-top: 22px;margin-left: 5px;}

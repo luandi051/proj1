@@ -4,7 +4,7 @@ h3{font-size: 0.937rem;display:inline-block;}
 #top_popup {}
 #top_popup img{width:100%; min-width: 1024px;}
 #top_popup .close{position: absolute;right:100px;top:10px;text-indent: -9999999px;
-                background:none;border:0;}
+                background:none;border:0;width: 50px; height: 50px;}
 #top_popup .close:before{content:'';display:block;width:2px; height:40px;background-color:#fff;
                    transform:rotate(45deg);position:absolute;top:0px;}
 #top_popup .close:after{content:'';display:block;width:2px; height:40px;background-color:#fff;

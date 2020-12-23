@@ -1,6 +1,6 @@
 $(function(){
     $('#top_popup button').click(function(){
-     $('#top_popup').fadeOut(); 
+     $('#top_popup').stop().slideUp(); 
     })
     var slide;
      slide = setInterval(function(){
